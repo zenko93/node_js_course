@@ -1,0 +1,19 @@
+{
+  "name": "node_js_course",
+  "version": "1.0.0",
+  "description": "full course",
+  "main": "test.js",
+  "scripts": {
+    "start": "node ./lessons/process.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
