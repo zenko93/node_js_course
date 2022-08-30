@@ -45,5 +45,6 @@ http.createServer((req, res) => {
     // res - writable stream
     const stream = fs.createReadStream(path.resolve(__dirname, 'test.txt'));
 
+    // Стрим закончит читать раньше чем пользователь скачает
     stream.pipe(res)
 })
